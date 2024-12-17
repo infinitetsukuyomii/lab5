@@ -1,0 +1,106 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.header {
+    text-align: right;
+}
+.header a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+.intro {
+    text-align: left;
+    padding: 50px 0;
+    position: relative;
+}
+.intro h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+}
+.intro p {
+    font-size: 16px;
+    color: #666;
+    margin: 10px 0 20px;
+}
+.intro img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 50px; /* Adjust this value to increase the top margin */
+    right: 0;
+}
+.btn {
+    background-color: #ff4b5c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 700;
+}
+.recent-posts, .featured-works {
+    margin: 50px 0;
+}
+.recent-posts h2, .featured-works h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.recent-posts .post, .featured-works .work {
+    background-color: #eaf7ff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.recent-posts .post {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+}
+.recent-posts .post h3, .featured-works .work h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 10px;
+}
+.recent-posts .post p, .featured-works .work p {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
+.featured-works .work {
+    display: flex;
+    align-items: center;
+}
+.featured-works .work img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+}
+.footer a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+}
+.intro h1, .intro p, .intro .btn {
+    margin-right: 180px; /* Adjust this value as needed */
+}
